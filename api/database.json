@@ -1,0 +1,209 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Rose",
+            "colorId": "1"
+        },
+        {
+            "id": 2,
+            "commonName": "Rossmerry",
+            "colorId": "2"
+        },
+        {
+            "id": 3,
+            "commonName": "Tulip",
+            "colorId": "3"
+        },
+        {
+            "id": 4,
+            "commonName": "Merrygold",
+            "colorId": "4"
+        },
+        {
+            "id": 5,
+            "commonName": "Sunflower",
+            "color": "5"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "flowerShop",
+            "city": "Brentwood",
+            "state": "TN",
+            "address": "1234 ross ct",
+            "distributorId": 1
+            
+        },
+        {
+            "id": 2,
+            "name": "RosyGarden",
+            "city": "nashville",
+            "state": "TN",
+            "address": "1235 galvin rd",
+            "distributorId": 2
+            
+        },
+        {
+            "id": 3,
+            "name": "freshColor",
+            "city": "Franklin",
+            "state": "TN",
+            "address": "1236 circle ct",
+            "distributorId": 3
+            
+        },
+        {
+            "id": 4,
+            "name": "Amita",
+            "city": "mount-juliet",
+            "state": "TN",
+            "address": "1237 deli st.",
+            "distributorId": 1
+            
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Ajay",
+            "city": "Brentwood",
+            "state": "TN",
+            "address": "9704 capstone ct"
+            
+        },
+        {
+            "id": 2,
+            "name": "Praveen",
+            "city": "Brentwood",
+            "state": "TN",
+            "address": "9705 capstone ct"
+            
+        },
+        {
+            "id": 3,
+            "name": "Tejas",
+            "city": "Brentwood",
+            "state": "TN",
+            "address": "9709 rosalla st."
+        
+        }
+    ],
+    "Nurseries": [
+        {
+            "id": 1,
+            "name": "hina khan"
+        
+        },
+        {
+            "id": 2,
+            "name": "pream lata"
+        },
+        {
+            "id": 3,
+            "name": "shanaz gill"
+        },
+        {
+            "id": 4,
+            "name": "shiddarth sukla"
+            
+ },
+        {
+            "id": 5
+        }
+    ],
+
+    "nurseryFlower":[
+        {
+"id": 1,
+"flowerId":1,
+"nurseryId": 1
+        },
+        {
+"id": 2,
+"flowerId":2,
+"nurseryId": 2
+        },
+        {
+"id": 3,
+"flowerId":3,
+"nurseryId": 1
+        },
+        {
+"id": 4,
+"flowerId":3,
+"nurseryId": 4
+        },
+        {
+"id":5,
+"flowerId":1,
+"nurseryId": 2
+        },
+        {
+"id":6,
+"flowerId":2,
+"nurseryId": 3
+        },
+        {
+"id":7,
+"flowerId":3,
+"nurseryId": 4
+        },
+        {
+"id":9,
+"flowerId":4,
+"nurseryId": 4
+        }
+    ],
+
+    "nurseryDistributor": [
+        {
+"id":1,
+"nurseryId": 2,
+"distributorId":3
+    },
+        {
+"id":2,
+"nurseryId": 3,
+"distributorId":2
+    },
+        {
+"id":3,
+"nurseryId": 3,
+"distributorId":3
+    },
+        {
+"id":4,
+"nurseryId": 4,
+"distributorId":2
+    },
+        {
+"id":5,
+"nurseryId": 1,
+"distributorId":4
+    }
+],
+"colors":[
+    {
+    "id":1,
+    "color": "white"
+},
+{
+    "id":2,
+    "color": "pink"
+},
+{
+    "id":3,
+    "color": "red"
+},
+{
+    "id":4,
+    "color": "yellow"
+},
+{
+    "id":1,
+    "color": "white"
+}
+]
+}
